@@ -1,4 +1,4 @@
 vim-cheat
 =========
 
-See my vim cheatsheet [here](tsironis/vim-cheat/edit/master/cheatsheet.md)
+See my vim cheatsheet [here](cheatsheet.md)
