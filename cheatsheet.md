@@ -1,5 +1,12 @@
 # Vim cheatsheet
 
+### Contents
+1. [Text Manipulation](#text-manipulation)
+2. [Moving around](#moving-around)
+3. [Indentation](#text-indentation)
+
+----
+
 ## Text manipulation
 ```de``` - Delete everything till the end of the word by pressing . at your heart's desire.
 
@@ -73,7 +80,7 @@ But add a dot after the colon - :.! [command] -- and it'll dump the output of th
 
 similar to b/e, capital B and E move the cursor word-by-word using only whitespaces as delimiters.
 
-## Text indentation
+## Indentation
 
 ```=i{``` - automatically indents inside the block of code your curson currently is.
 
