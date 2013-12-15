@@ -1,5 +1,6 @@
-## Vim cheatsheet
+# Vim cheatsheet
 
+## Text manipulation
 ```de``` - Delete everything till the end of the word by pressing . at your heart's desire.
 
 ```ci(xyz[Esc]``` - This is a weird one. Here, the 'i' does not mean insert mode. Instead it means inside the parenthesis. So this sequence cuts the text inside parenthesis you're standing in and replaces it with "xyz". It also works inside square and figure brackets -- just do ci[ or ci{ correspondingly. Naturally, you can do di (if you just want to delete all text without typing anything. You can also do a instead of i if you want to delete the parentheses as well and not just text inside them.
@@ -12,13 +13,13 @@
 
 ```ZZ``` - save and close current file (WAY faster than Ctrl-F4 to close the current tab!)
 
-```ddp``` - move current line one row down
-
-```xp``` - move current character one position to the right
-
 ```U``` - uppercase, so viwU upercases the word
 
 ```~``` - switches case, so viw~ will reverse casing of entire word
+
+```ddp``` - move current line one row down
+
+```xp``` - move current character one position to the right
 
 ```zz``` - it scrolls the screen to make this line appear in the middle. This is excellent for putting the piece of code you're working on in the center of your attention. Sibling commands -- zt and zb -- make this line the top or the bottom one on the sreen which is not quite as useful.
 
@@ -69,3 +70,11 @@ But add a dot after the colon - :.! [command] -- and it'll dump the output of th
 ```dab``` - "delete arounb brackets"
 
 ```daB``` for around curly brackets, t for xml type tags, combinations with normal commands are as expected cib/yaB/dit/vat etc
+
+## Text indentation
+
+```=i{``` - automatically indents inside the block of code your curson currently is.
+
+```=%``` - automatically indents when over a curly brackets { or }
+
+```>> or <<``` - moves the text one tab right or left respectively, then repeat using ```.``` as many times as you want
